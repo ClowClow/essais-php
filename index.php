@@ -43,13 +43,26 @@ echo rand($min, $max);
 <br/>
 Question 5 : Faire une fonction addition; </br>
 <?php
-
 function addition() {
   $A = 1;
   $B = 26;
   echo ($A + $B);
 }
 echo addition();
+?>
+<br/>
+Question 6 : Faire une fonction PGCD; <br/>
+
+<br/>
+Question 7 : Afficher "Je vais faire du bon visuel" si x<50 sinon "Je suis un piou piou" </br>
+<?php
+$x = 45;
+if ($x<50) {
+  echo "Je vais faire du bon visuel";
+}
+else {
+  echo "Je suis un piou piou";
+}
 ?>
 <br/>
 </body>
