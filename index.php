@@ -154,6 +154,23 @@ switch($x)
 }
 ?>
 <br/><br/>
+<h3>Question 12 : Soit x = nbr aléatoire entre 1 et 2 (entier),</br>
+si x == 1 include page1.html (page 1= < h1>Je suis = à 1< /h1>)</br>
+sinon include page2.html (page 2= < h2>j'ai bientôt finis les exos php< /h2>)</h3><br/>
+<?php
+$x = rand(1, 2);
+switch($x)
+{
+ case 1:
+  include "page1.html";
+  break;
+
+ default :
+  include "page2.html";
+  break;
+}
+?>
+<br/><br/>
 </body>
 
 </html>
