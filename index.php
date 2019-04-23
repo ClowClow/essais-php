@@ -101,6 +101,31 @@ while ($x <= 50){
 }
 ?>
 <br/><br/>
+Question 10 : Faire une fonction qui prend en paramètre x;</br>
+si x == 1 alors afficher (AAAA)</br>
+si x == 2 alors afficher (BBBB)</br>
+si x == 3 alors afficher (CCCC)</br>
+si x == 4 alors afficher (DDDD)</br>
+sinon afficher "je suis une perruche" </br>
+<?php
+$x = -2;
+if ($x == 1){
+  echo "AAAA";
+}
+elseif ($x == 2){
+  echo "BBBB";
+}
+elseif ($x == 3){
+  echo "CCCC";
+}
+elseif ($x == 4){
+  echo "DDDD";
+}
+else {
+  echo "je suis une perruche";
+}
+?>
+<br/><br/>
 </body>
 
 </html>
