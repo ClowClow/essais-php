@@ -89,6 +89,18 @@ while ($x <= 30){
 }
 ?>
 <br/><br/>
+Question 9 : Afficher "petite perruche" + numéro tant que x
+(nombre aléatoire entre 10 et 100) <50 </br>
+<?php
+$x = rand (10, 100);
+$A = "petite perruche";
+while ($x <= 50){
+  echo ($x);
+  echo ($A.'</br>');
+  $x++;
+}
+?>
+<br/><br/>
 </body>
 
 </html>
