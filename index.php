@@ -18,7 +18,7 @@ Question 1 : Afficher le plus petit entre A et B;<br/>
   $B = 12;
 echo min($B, $A);
   ?>
-<br/>
+<br/><br/>
 Question 2 : Afficher le plus petit entre A, B et C;<br/>
 <?php
 $A = 30;
@@ -26,21 +26,21 @@ $B = 0;
 $C = -3;
 echo min($A, $B, $C);
 ?>
-<br/>
+<br/><br/>
 Question 3 : Afficher un nombre aléatoire entre 1 et 100;<br/>
 <?php
 $min = 1;
 $max = 100;
 echo rand($min, $max);
 ?>
-<br/>
+<br/><br/>
 Question 4 : Afficher un nombre aléatoire entre 5 et 100;<br/>
 <?php
 $min = 5;
 $max = 100;
 echo rand($min, $max);
 ?>
-<br/>
+<br/><br/>
 Question 5 : Faire une fonction addition; </br>
 <?php
 function addition() {
@@ -50,10 +50,23 @@ function addition() {
 }
 echo addition();
 ?>
-<br/>
+<br/><br/>
 Question 6 : Faire une fonction PGCD; <br/>
-
-<br/>
+<?php
+function pgcd($nombre,$nombre2){
+   while($nombre>1){
+        $reste = $nombre%$nombre2;
+        if($reste == 0){
+        break;
+        }
+        $nombre=$nombre2;
+        $nombre2=$reste;
+    }
+return $nombre2;
+}
+echo pgcd( 20,30 );
+?>
+<br/><br/>
 Question 7 : Afficher "Je vais faire du bon visuel" si x<50 sinon "Je suis un piou piou" </br>
 <?php
 $x = 45;
@@ -64,7 +77,18 @@ else {
   echo "Je suis un piou piou";
 }
 ?>
-<br/>
+<br/><br/>
+Question 8 : Afficher 30 fois "petite perruche" + numéro </br>
+<?php
+$x = 0;
+$A = "petite perruche";
+while ($x <= 30){
+  echo ($x);
+  echo ($A.'</br>');
+  $x++;
+}
+?>
+<br/><br/>
 </body>
 
 </html>
