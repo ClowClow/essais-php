@@ -41,6 +41,17 @@ $max = 100;
 echo rand($min, $max);
 ?>
 <br/>
+Question 5 : Faire une fonction addition; </br>
+<?php
+
+function addition() {
+  $A = 1;
+  $B = 26;
+  echo ($A + $B);
+}
+echo addition();
+?>
+<br/>
 </body>
 
 </html>
