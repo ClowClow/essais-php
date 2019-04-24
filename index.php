@@ -170,6 +170,26 @@ switch($x)
   break;
 }
 ?>
+<h3> Question 13. générer 10 valeur aléatoire dont chaque valeur sera ajoutée dans un tableau tab</h3><br/>
+<?php
+/* code qui affiche 10 fois un nombre aléatoire sans tableau
+function aleatoire (){
+$number = rand (1, 50);
+echo ($number.'</br>');
+};
+function tentimes (){
+for ($i = 1; $i <= 10; $i++ ){
+echo aleatoire();
+};
+};
+echo tentimes();
+*/
+
+?>
+<h3> Question 14. faire une fonction qui trie un tableau de 10 valeur</h3><br/>
+
+<h3> Question 15. utiliser une autre méthode pour 14</h3><br/>
+
 <br/><br/>
 </body>
 
